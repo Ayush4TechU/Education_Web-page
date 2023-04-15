@@ -1,0 +1,284 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    cursor: pointer;
+}
+.nav-list{
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img{
+    width: 35%;
+    border: 3px solid white;
+    border-radius: 50px;
+    margin: 5px;
+}
+
+.nav-list li {
+    list-style: none;
+    padding: 26px 30px;
+}
+
+.nav-list li a {
+    font-size: 18px;
+    font-family: 'Ubuntu', sans-serif;
+    text-decoration: none;
+    color: white;
+}
+
+.nav-list li a:hover {
+    text-decoration: none;
+    color: grey;
+}
+
+.rightNav{
+    width: 50%;
+    text-align: right;
+    padding: 0 23px;
+}
+
+#search {
+    padding: 5px;
+    font-size: 17px;
+    border: 2px solid grey;
+    border-radius: 9px;
+}
+
+/* [../img] use this because image is in another folder */
+.background{
+    background: rgba(0, 0, 0, 0.7) url('../img/education-background.jpg');
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+.box-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 50%;
+    margin: auto;
+    height: 80%;
+}
+
+.firstSection{
+    height: 100vh;
+}
+
+.firstHalf{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.secondHalf{
+    width: 30%;
+}
+
+.secondHalf img{
+    width: 77%;
+    border: 4px solid white;
+    border-radius: 150px;
+    display: flex;
+    margin: auto;
+}
+
+.text-big{
+    font-size: 41px;
+}
+
+.text-small{
+    font-size: 18px;
+}
+
+.btn{
+    padding: 8px;
+    margin: 7px 3px;
+    border: 2px solid white;
+    border-radius: 8px;
+    background: none;
+    color: white;
+    cursor: pointer;
+}
+
+.btn-sn{
+   padding: 6px 10px;
+   vertical-align: middle;
+}
+
+.secRight{
+        height: 500px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        max-width: 80%;
+        margin: auto;
+}
+
+.secLeft{
+        height: 350px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        max-width: 80%;
+        margin: auto;
+        flex-direction: row-reverse;
+}
+
+.secLeft{
+    height: 350px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    max-width: 80%;
+    margin: auto;
+    flex-direction: row-reverse;
+}
+
+.thumbnail img{
+   width: 300px;
+   margin: auto;
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+}
+
+.paras{
+    padding: 0px 48px;
+}
+
+.sectionTag{
+    padding: 16px 0;
+}
+
+.sectionSubTag{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.contact{
+    background-color: rgb(233, 231, 228);
+    height: 640px;
+}
+/* Full Contact Box */
+.contact-text{
+    text-align: center;
+    padding-top: 6%;
+    font-family: 'Ubuntu', sans-serif;   
+    font-size: 35px;
+}
+
+.form{
+    max-width: 600px;
+    margin: 42px auto;
+}
+
+.fm-enter{
+    width: 100%;
+    margin: 15px 0;
+    padding: 5px 3px;
+    font-size: 19px;
+    border: 2px solid gray;
+    border-radius: 6px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.btn-dark{
+    color: black;
+    border: 2px solid black;
+}
+.btn-dark:hover{
+    background-color: red;
+}
+
+/* Down Side Footer */
+.footer{
+    text-align: center;
+    padding: 30px 0;
+    display: flex;
+    justify-content: center;
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+}
+
+/* First Image */
+.imgFluidI{
+    width: 300px;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 26px;
+    border: 4px solid black;
+}
+
+/* Second Image */
+.imgFluidII{
+    width: 300px;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 26px;
+    border: 4px solid black;
+}
+
+/* Third Image */
+.imgFluidIII{
+    width: 300px;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 26px;
+    border: 4px solid black;
+}
+
+/* Fourth Image */
+.imgFluidIV{
+    width: 300px;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 26px;
+    border: 4px solid black;
+}
+
+/* Fifth Image */
+.imgFluidV{
+    width: 300px;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 26px;
+    border: 4px solid black;
+}
+
+/* [.hover] is a class of search button */
+.hover:hover{
+    color: black;
+    background-color: rgb(215, 208, 208);
+}
